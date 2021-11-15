@@ -9,8 +9,74 @@ body {
     background-image:url("/imgs/pattern-background-desktop.svg");    
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .card {
-    
+    border: solid;
+    margin: 100px 500px;
+    width: 400px;
+    background-color: white;
+    border: transparent;
+    border-radius: 15px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+#illustration {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 400px;
+    height: auto;
+}
+
+.info {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.interactive {
+    padding: 15px 20px 0px 20px;
+}
+
+.subscription {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 8px;
+}
+
+.plan {
+    margin-left: -44px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1 {
+    border-radius: 8px;
+    margin-top: 35px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 8px;
+    border: transparent;
+}
+
+.btn2 {
+    border-radius: 8px;
+    border: transparent;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: white;
 }
