@@ -19,6 +19,7 @@ body {
     background-color: white;
     border: transparent;
     border-radius: 15px;
+    box-shadow: 0px 5px 24px hsl(223, 55%, 83%);
 }
 
 .hero {
@@ -40,6 +41,8 @@ body {
 
 h3 {
     margin-bottom: 20px;
+    color: rgb(61, 51, 51);
+    font-weight: 900;
 }
 
 .interactive {
@@ -69,14 +72,43 @@ h3 {
     margin-top: 35px;
     color: white;
     background-color: hsl(245, 75%, 52%);
-    padding: 8px;
+    padding: 12px;
     border: transparent;
+    box-shadow: 0px 5px 10px hsl(223, 58%, 75%);
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.btn1:hover {
+    background-color: hsl(245, 72%, 65%);
 }
 
 .btn2 {
     border-radius: 8px;
     border: transparent;
-    padding: 8px;
+    padding: 12px;
     margin-top: 10px;
     background-color: white;
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(134, 134, 134);
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+    transition: color 1s;
+}
+
+a:hover {
+    color: hsl(245, 72%, 65%);
+}
+
+.para {
+    color: rgb(61, 51, 51);
+    font-weight: 700;
+    padding-bottom: 5px;
 }
